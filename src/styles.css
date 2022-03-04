@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.node {
+  background: rgba(39, 198, 238, 0.678);
+  border-radius: 0;
+  border: 1px solid #000;
+  color: #000;
+  padding-bottom: 0;
+  box-shadow: 0px 5px 10px 1px rgb(0 0 0 / 17%);
+}
+
+.node .title {
+  background: rgba(39, 198, 238, 0.678);
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.node > .output,
+.node > .input {
+  background: #fff;
+  border-bottom: 1px solid #000;
+}
+.node .input-title,
+.node .output-title {
+  color: #000;
+}
+
+.node .socket {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: #000;
+  height: 12px;
+  width: 12px;
+}
+
+.connection .main-path {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.node.selected {
+  background: #000;
+  outline: 1px solid #000;
+  border: 1px solid #000;
+}
